@@ -1,0 +1,17 @@
+﻿command:
+composer update
+# cấu hình kết nối database (sửa DBpassword theo máy tính) sau đó gõ lệnh:
+				php artisan migrate --seed
+					php artisan migrate -v
+#Generate JWT secret key
+				php artisan jwt:secret
+#(trước đó phải cài node.js) install Elixer
+				npm install
+# install vue.js (de co file trong resource)
+				npm install vue --save
+#Cài cross-env
+				npm install cross-env@latest --save-dev
+# chạy chương trình
+				npm run dev
+# kiểm tra server
+				php artisan serve
